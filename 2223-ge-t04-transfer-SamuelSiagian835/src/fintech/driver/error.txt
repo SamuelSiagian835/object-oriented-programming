@@ -1,0 +1,12 @@
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.compareTo(String)" because the return value of "fintech.model.Transaction.getWaktuTransaksi()" is null
+        at fintech.driver.Driver1$1.compare(Driver1.java:93)
+        at fintech.driver.Driver1$1.compare(Driver1.java:1)
+        at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:360)
+        at java.base/java.util.TimSort.sort(TimSort.java:220)
+        at java.base/java.util.Arrays.sort(Arrays.java:1306)
+        at java.base/java.util.ArrayList.sort(ArrayList.java:1721)
+        at java.base/java.util.Collections.sort(Collections.java:179)
+        at fintech.driver.Driver1.main(Driver1.java:91)
+
+        Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "fintech.model.Transaction.getreceinama()" is null
+        at fintech.driver.Driver1.main(Driver1.java:39)
